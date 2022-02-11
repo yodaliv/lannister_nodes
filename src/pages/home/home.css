@@ -1,0 +1,51 @@
+.home {
+  padding: 1.5rem 2.5rem;
+}
+
+.logo {
+  width: 18vw;
+  max-width: 350px;
+  min-width: 150px;
+}
+
+.text-logo {
+  width: 250px;
+  height: 30px;
+}
+
+.title {
+  width: 18vw;
+  max-width: 350px;
+  min-width: 100px;
+  height: auto;
+  max-height: 55px;
+  min-height: 40px;
+}
+
+.title-red {
+  height: 35px;
+}
+
+.lineheight-08 {
+  line-height: 0.8;
+}
+
+.how-works-card {
+  border-radius: 7px;
+  background-color: #0a0a10;
+  padding: 10px 15px;
+  margin: 0;
+  height: 100%;
+  text-align: justify;
+}
+
+.community-icon {
+  margin: 0 2rem;
+  font-size: 2.5rem;
+}
+
+.community-icon:hover {
+  cursor: pointer;
+  color: #ad1f36;
+  transition: color 0.3s ease-in-out;
+}

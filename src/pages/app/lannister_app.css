@@ -1,0 +1,125 @@
+.app-container {
+  padding: 1.5rem 2.5rem;
+}
+
+.app-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.info-card {
+  border-radius: 5px;
+  background-color: #2a293e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 7px 20px;
+  margin: 10px 0;
+}
+
+.chain-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #2a293e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 7px 20px;
+  margin: 10px 0;
+  height: 80%;
+}
+
+.btn-owned-nodes {
+  background-color: transparent;
+  border: 2px solid #5387c6;
+  color: #5387c6;
+  border-radius: 5px;
+}
+
+.btn-owned-nodes:hover {
+  border: 2px solid #FEFEFE;
+  color: #FEFEFE;
+}
+
+.btn-claim-reward {
+  background-color: transparent;
+  border: 2px solid #d92644;
+  color: #d92644;
+  border-radius: 5px;
+}
+
+.btn-claim-reward:hover {
+  border: 2px solid #FEFEFE;
+  color: #FEFEFE;
+}
+
+.create-node-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #2a293e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3rem 2rem;
+  margin: 10px 0;
+}
+
+.node-name {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #FEFEFE;
+  text-align: center;
+  padding-bottom: 3px;
+  font-size: 18px;
+  color: #FEFEFE;
+}
+
+.node-name:focus {
+  text-align: center;
+  color: #5387c6;
+  box-shadow: none!important;
+  outline: none!important;
+  border-bottom: 2px solid #5387c6;
+  transition: border-bottom 0.4s ease-in-out;
+}
+
+.red-bg {
+  background-color: #d92644;
+  color: white;
+}
+
+#navbar-toggle-btn {
+  color: #d92644;
+}
+
+.mynode-list {
+  border-radius: 5px;
+  background-color: #2a293e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5rem 0 1rem 0;
+  margin: 1rem 0;
+}
+
+.list-header {
+  border-bottom: 2px solid #15151e;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.list-body {
+  overflow: auto;
+  max-height: 400px;
+  min-height: 200px;
+  position: relative;
+}
+
+.node-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1rem 2.5rem;
+  border-radius: 10px;
+}
+
+.node-item:hover {
+  cursor: pointer;
+  background-color: #15151e;
+}
